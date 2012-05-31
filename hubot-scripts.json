@@ -1,16 +1,3 @@
 ["redis-brain.coffee",
-"tweet.coffee",
 "shipit.coffee",
-"remind.coffee",
-"ackbar.coffee",
-"corgime.coffee",
-"decide.coffee",
-"dealwithit.coffee",
-"directions.coffee",
-"google.coffee",
-"shorten.coffee",
-"buscemi.coffee",
-"whos-turn.coffee",
-"keep-alive.coffee",
-"good-night.coffee",
-"cheer.coffee"]
+"tweet.coffee"]
