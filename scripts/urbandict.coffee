@@ -1,7 +1,7 @@
 module.exports = (robot) ->
   robot.respond /(urban)( define)?( example)?( me)? (.*)/i, (msg) ->
-    urbanDict msg, msg.match[4], (entry) ->
-      if msg.match[2]
+    urbanDict msg, msg.match[5], (entry) ->
+      if msg.match[3]
         msg.send "#{entry.example}"
       else
         msg.send "#{entry.definition}"
