@@ -7,7 +7,7 @@ module.exports = (robot) ->
         msg.send "#{entry.definition}"
 
 urbanDict = (msg, query, callback) ->
-  msg.http("http://stormy-sword-6278.herokuapp.com/api/#{escape(query)}")
+  msg.http("http://urbandict.me/api/#{escape(query)}")
     .get() (err, res, body) ->
       callback(JSON.parse(body).entries[0])
 
