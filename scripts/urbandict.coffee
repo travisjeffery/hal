@@ -1,3 +1,9 @@
+# Define terms via Urban Dictionary 
+
+# urban me <term>         - Searches Urban Dictionary and returns definition
+# urban define me <term>  - Searches Urban Dictionary and returns definition
+# urban example me <term> - Searches Urban Dictionary and returns example 
+
 module.exports = (robot) ->
   robot.respond /(urban)( define)?( example)?( me)? (.*)/i, (msg) ->
     urbanDict msg, msg.match[5], (entry) ->
