@@ -2,4 +2,6 @@
 "shipit.coffee",
 "github-activity.coffee",
 "octospy.coffee",
+"coderwall.coffee",
+"pomodoro.coffee",
 "tweet.coffee"]
