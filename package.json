@@ -15,7 +15,7 @@
   },
 
   "dependencies": {
-    "hubot": ">=2.2.2",
+    "hubot": "git://github.com/travisjeffery/hubot.git",
     "hubot-scripts": ">=2.0.4",
     "optparse": "1.0.3",
     "date-utils": ">=1.2.5",
