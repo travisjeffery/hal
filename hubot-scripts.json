@@ -1,7 +1,6 @@
 ["redis-brain.coffee",
 "shipit.coffee",
 "github-activity.coffee",
-"octospy.coffee",
 "coderwall.coffee",
 "likeaboss.coffee",
 "gifbin.coffee",
