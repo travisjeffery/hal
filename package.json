@@ -16,7 +16,6 @@
 
   "dependencies": {
     "hubot": "*",
-    "hubot-socket.io": "*",
     "hubot-scripts": ">=2.0.4",
     "optparse": "1.0.3",
     "date-utils": ">=1.2.5",
